@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#navbar li a{
+	font-family: Arial;
+	background: none;
+	padding-left:40px;
+	padding-right: 40px;
+}
+#navbar ul a:hover{
+	transition: all .4s;
+	background: #E4E4E4;
+}
+
+.banner-text{
+	position: absolute;
+    /* min-width: 750px; */
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 28px;
+    top: 50%;
+    margin: -40px auto;
+    z-index: 2;
+    color: #FFF;
+    font-family: "Segoe UI Light";
+	text-shadow: 2px 2px 2px #5C5C5C
+}
