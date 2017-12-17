@@ -269,7 +269,7 @@
 
 .cs-circleslight .br-bar-timer {
 	height: 6px;
-	bottom: 0px;
+	bottom: -1px;
 }
 
 	.cs-circleslight .br-bar-timer .br-timer-glow {
