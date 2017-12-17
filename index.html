@@ -11,6 +11,18 @@
 var CSSettings = {"pluginPath":"images"};
 /* ]]> */
 </script>
+	<script>
+$(document).ready(function(){
+    //手势右滑 回到上一个画面
+    $('#banner').bind('swiperight swiperightup swiperightdown',function(){
+        $("#banner").carousel('prev');
+    })
+    //手势左滑 进入下一个画面
+    $('#banner').bind('swipeleft swipeleftup swipeleftdown',function(){
+        $("banner").carousel('next');
+    })
+})
+</script>
 <script type='text/javascript' src='images/js/cute.slider.js?ver=2.0.0'></script>
 <script type='text/javascript' src='images/js/cute.transitions.all.js?ver=2.0.0'></script>
 <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
@@ -48,7 +60,7 @@ var CSSettings = {"pluginPath":"images"};
 </nav>
 <!--  以上是导航栏-->
 
-<div class="c-860 c-demoslider">
+<div class="c-860 c-demoslider" id="banner">
 <div id="cuteslider_3_wrapper" class="cs-circleslight">
 <div id="cuteslider_3" class="cute-slider" data-width="960" data-height="420" data-overpause="true">
 <ul data-type="slides">
@@ -87,11 +99,38 @@ var CSSettings = {"pluginPath":"images"};
 	
 <div class="container">
 	<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/thana-gu-389570.jpg" alt="...">
+  <div class="col-xs-6 col-md-4 meet meet-max">
+    <a href="#" class="thumbnail thumbnail-max">
+      
     </a>
   </div>
+  <div class="col-xs-6 col-md-4 know know-max">
+    <a href="#" class="thumbnail thumbnail-max">
+     
+    </a>
+  </div>
+		  <div class="col-xs-6 col-md-4 love love-max">
+    <a href="#" class="thumbnail thumbnail-max">
+   
+    </a>
+  </div>
+		<div class="col-xs-6 col-md-4 some some-max">
+    <a href="#" class="thumbnail thumbnail-max">
+      
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-4 one one-max">
+    <a href="#" class="thumbnail thumbnail-max">
+     
+    </a>
+  </div>
+		  <div class="col-xs-6 col-md-4 like like-max">
+    <a href="#" class="thumbnail thumbnail-max">
+   
+    </a>
+  </div>
+		
+		
 	</div></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>

@@ -2,10 +2,9 @@
 body {
 	margin:0;
 	color:#555;
-	min-width:320px;
+	min-width:375px;
 	-webkit-text-size-adjust:100%;
 	background-color: #eeeeee;
-	font-family: "寰蒋闆呴粦";
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -40,6 +39,8 @@ a:hover {
 
 .c-demoslider {
 	margin: 0px auto;
+	position: relative;
+	z-index: 20
 }
 /* Slider */
 #layerslider-wrapper{
