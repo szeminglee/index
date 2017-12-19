@@ -31,18 +31,20 @@
 	position: relative;
 	z-index: 19
 }
-.row .meet:hover,.row .know:hover,.row .love:hover,.row .some:hover,.row .one:hover,.row .like:hover{
+.row .meet a:hover,.row .know a:hover,.row .love a:hover,.row .some a:hover,.row .one a:hover,.row .like a:hover{
 	transition: all .4s;
     text-decoration: none;
     background-image: url(../img/web_hover.png);
     background-repeat: no-repeat;
     background-position: center 78px;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 30px 28px -16px rgba(0, 0, 0, 0.26);
     transform: translate(0, -4px);
 	overflow: hidden;
+	position: relative;
+	z-index: 100;
 }
 @media screen and (max-width: 550px) {
-	.container .row .meet{
+	.container .row .meet a{
 	text-decoration: none;
     height: 200px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -52,7 +54,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-	.container .row .know{
+	.container .row .know a{
 	text-decoration: none;
     height: 200px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -62,7 +64,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-	.container .row .love{
+	.container .row .love a{
 	text-decoration: none;
     height: 200px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -72,7 +74,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-	.container .row .some{
+	.container .row .some a{
 	text-decoration: none;
     height: 200px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -82,7 +84,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-.container .row .one{
+.container .row .one a{
 	text-decoration: none;
     height: 200px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -92,7 +94,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-.container .row .like{
+.container .row .like a{
 	text-decoration: none;
     height: 200px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -105,7 +107,7 @@
 }
 
 @media  screen and (min-width:550px) and (max-width:1920px){
-	.container .row .meet{
+	.container .row .meet a{
 	text-decoration: none;
     height: 300px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -115,7 +117,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-	.container .row .know{
+	.container .row .know a{
 	text-decoration: none;
     height: 300px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -125,7 +127,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-	.container .row .love{
+	.container .row .love a{
 	text-decoration: none;
     height: 300px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -135,7 +137,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-	.container .row .some{
+	.container .row .some a{
 	text-decoration: none;
     height: 300px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -145,7 +147,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-.container .row .one{
+.container .row .one a{
 	text-decoration: none;
     height: 300px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -155,7 +157,7 @@
     -webkit-transition: all .2s;
     transition: all .4s;
 }
-.container .row .like{
+.container .row .like a{
 	text-decoration: none;
     height: 300px;
     background-image: url(http://image.whitlife.cn/meet.png);
@@ -168,42 +170,42 @@
 }
 
 @media  screen and (min-width:550px) and (max-width:1920px){
-	.like{
+	.like {
 		height: 300px;
 	}
-	.some{
+	.some {
 		height: 300px;
 	}
-	.one{
+	.one {
 		height: 300px;
 	}
-	.meet{
+	.meet {
 		height: 300px;
 	}
-	.know{
+	.know {
 		height: 300px;
 	}
-	.love{
+	.love {
 		height: 300px;
 	}
 }
 @media screen and (max-width: 550px){
-	.like{
+	.like {
 		height: 200px;
 	}
-	.some{
+	.some {
 		height: 200px;
 	}
-	.one{
+	.one {
 		height: 200px;
 	}
-	.meet{
+	.meet {
 		height: 200px;
 	}
-	.know{
+	.know {
 		height: 200px;
 	}
-	.love{
+	.love {
 		height: 200px;
 	}
 }
