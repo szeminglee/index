@@ -106,7 +106,7 @@
 }
 }
 
-@media  screen and (min-width:550px) and (max-width:1920px){
+@media  screen and (min-width:550px) and (max-width:5000px){
 	.container .row .meet a{
 	text-decoration: none;
     height: 300px;
@@ -169,7 +169,7 @@
 }
 }
 
-@media  screen and (min-width:550px) and (max-width:1920px){
+@media  screen and (min-width:550px) and (max-width:5000px){
 	.like {
 		height: 300px;
 	}
